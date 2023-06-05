@@ -95,7 +95,7 @@ const Projects = ()=>{
                         </ProjectLink>
                     </ProjectContainer>
                     <ProjectText>
-                        Site para buscar GIFs (100% funcional)
+                        Site que simula uma urna eleitoral (Responsividade apenas para PC)
                     </ProjectText>
                 </ProjectBlock>
                 <ProjectBlock  href="https://whatsapp-clone-coral-omega.vercel.app" target='_blank'>

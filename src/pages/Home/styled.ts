@@ -29,8 +29,6 @@ export const Section = styled.div`
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-
-
 `;
 export const Content = styled.div`
     width: 70rem;
@@ -57,5 +55,25 @@ export const Text = styled.p`
     align-items: center;
 `;
 
-
+export const ArrowContainer = styled.a`
+    background-color: rgb(14,200,0);
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f4f4f4;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    opacity: 1;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+`;
+export const ToUp = styled.img`
+    width: 3rem;
+`;
 

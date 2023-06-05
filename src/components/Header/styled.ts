@@ -27,7 +27,10 @@ export const Navbar = styled.div`
     }
 `;
 export const Logo = styled.nav`
+    font-size: 20px;
+    text-align: center;
     margin-left: 3rem;
+    font-family: 'Pacifico', cursive;
     cursor: pointer;
 `;
 export const Nav = styled.nav`
@@ -63,7 +66,6 @@ export const Menu = styled.img`
     display: none;
     width: 30px;
     height: auto;
-    background-color: #fff;
     margin-right: 1rem;
     cursor: pointer;
 
@@ -76,7 +78,8 @@ type NavMenuProps = {
     show: string
 }
 export const NavMenu = styled.nav<NavMenuProps>`
-    background-color: #333;
+    background: rgb(2,0,36);
+    background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(18,50,3,1) 75%);
     flex: 2;
     height: 100vh;
     padding: 0 1.5rem;
@@ -88,6 +91,7 @@ export const NavMenu = styled.nav<NavMenuProps>`
     right: ${props=>props.show};
     padding-top: 1rem;
     transition: all ease .5s;
+    border-left: 1px solid rgb(14,219,0);
 
     @media (min-width: 761px) {
         display: none;

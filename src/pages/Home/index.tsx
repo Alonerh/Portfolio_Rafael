@@ -5,6 +5,8 @@ import {
     Content,
     Title,
     Text,
+    ArrowContainer,
+    ToUp
 } from './styled';
 
 import Header from '../../components/Header';
@@ -13,6 +15,8 @@ import Skills from '../../components/Skills';
 import Training from '../../components/Training';
 import Footer from '../../components/Footer';
 import Projects from '../../components/Projects';
+
+import arrowUp from '../../assets/arrowUp.svg';
 
 import { useDispatch } from 'react-redux';
 import { useAppSelector } from '../../redux/hooks/useAppSelector';
@@ -30,14 +34,15 @@ const Home = () =>{
 		}
 	}; */
 
+
     return (
-        <Container>
+        <Container id='container'>
             <Header/>
             <Main>
-                <Section>
+                <Section id='apresentation'>
                     <Apresentation />
                 </Section>
-                <Section>
+                <Section id='aboutMe'>
                     <Content>
                         <Title>
                             Sobre mim
@@ -55,16 +60,19 @@ const Home = () =>{
                         </Text>
                     </Content>
                 </Section>
-                <Section >
+                <Section id='projects'>
                     <Projects/>
                 </Section>
-                <Section>
+                <Section id='skills'>
                     <Skills/>
                 </Section>
-                <Section>
+                <Section id='training'>
                     <Training/>
                 </Section>
                 <Footer/>
+                {/* <ArrowContainer href="#container">
+                    <ToUp src={arrowUp}/>
+                </ArrowContainer> */}
             </Main>
         </Container>
         )

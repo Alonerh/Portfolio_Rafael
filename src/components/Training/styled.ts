@@ -35,7 +35,7 @@ export const Block = styled.div`
     width: 20rem;
     background: rgb(2,0,36);
     background: linear-gradient(17deg, rgba(2,0,36,1) 0%, rgba(0,71,5,1) 100%);
-    height: 13rem;
+    height: 14rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
