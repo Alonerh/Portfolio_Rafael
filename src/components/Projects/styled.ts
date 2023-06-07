@@ -44,7 +44,7 @@ export const ProjectBlock = styled.a`
         }
         span {
             font-weight: bold;
-            color: rgb(14,219,0);
+            color: rgb(14,0,0);
         }
     }
 
@@ -65,6 +65,7 @@ export const ProjectBlock = styled.a`
                 color: rgb(14,219,0);
             }
         }
+        
     }
 `;
 export const ProjectContainer = styled.div`

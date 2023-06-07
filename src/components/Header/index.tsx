@@ -36,7 +36,7 @@ const Header = ()=>{
                         <Navigator href="#aboutMe">SOBRE</Navigator>
                         <Navigator href="#projects">PROJETOS</Navigator>
                         <Navigator href="#skills">HABILIDADES</Navigator>
-                        <Navigator href="#https://api.whatsapp.com/send/?phone=5588988399456&text&type=phone_number&app_absent=0">CONTATO</Navigator>
+                        <Navigator href="https://api.whatsapp.com/send/?phone=5588988399456&text&type=phone_number&app_absent=0" target='_blank'>CONTATO</Navigator>
                     </Nav>               
                     <NavMenu show={hamb ? '0' : '-400px'}>
                         <CloseButton onClick={handleShowNav}>X</CloseButton>
