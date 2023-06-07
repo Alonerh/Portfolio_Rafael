@@ -84,7 +84,6 @@ export const FooterImage = styled.img`
 `;
 
 export const FooterOffering = styled.a`
-    width: 100%;
     margin-top: 0.4rem;
     opacity: .7;
     color: #f4f4f4;

@@ -44,7 +44,7 @@ export const ProjectBlock = styled.a`
         }
         span {
             font-weight: bold;
-            color: rgb(14,0,0);
+            color: rgb(14,200,0);
         }
     }
 

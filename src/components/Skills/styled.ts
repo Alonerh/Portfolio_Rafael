@@ -20,7 +20,6 @@ export const ContentSkills = styled.div`
     display: flex;  
     justify-content: center;
     align-items: center;
-    margin-right: 4rem;
 
     @media (max-width: 1100px) {
         max-width: 60rem;

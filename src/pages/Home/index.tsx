@@ -14,7 +14,6 @@ import Training from '../../components/Training';
 import Footer from '../../components/Footer';
 import Projects from '../../components/Projects';
 
-import arrowUp from '../../assets/arrowUp.svg';
 
 import { useDispatch } from 'react-redux';
 import { useAppSelector } from '../../redux/hooks/useAppSelector';
