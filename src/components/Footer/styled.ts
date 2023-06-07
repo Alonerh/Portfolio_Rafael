@@ -8,15 +8,11 @@ export const FooterMain = styled.div`
 export const FooterContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15rem;
     justify-content: space-around;
     align-items: center;
-    margin: 1rem 2rem;
+    margin: 1rem 0;
 
-    @media (max-width: 1100px) {
-        gap: 6rem;
-        margin: 1rem 4rem;
-    }
+    
     @media (max-width: 760px) {
         grid-template-columns: repeat(2, 1fr);
         gap: 0;
@@ -85,4 +81,14 @@ export const FooterImage = styled.img`
     &:hover {
         width: 3rem; 
     }
+`;
+
+export const FooterOffering = styled.a`
+    width: 100%;
+    margin-top: 0.4rem;
+    opacity: .7;
+    color: #f4f4f4;
+    font-size: 13px;
+    outline: 0;
+    text-decoration: none;
 `;

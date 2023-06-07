@@ -5,8 +5,6 @@ import {
     Content,
     Title,
     Text,
-    ArrowContainer,
-    ToUp
 } from './styled';
 
 import Header from '../../components/Header';

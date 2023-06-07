@@ -5,7 +5,8 @@ import {
     FooterYear,
     FooterMedias,
     FooterMedia,
-    FooterImage
+    FooterImage,
+    FooterOffering
 } from './styled';
 
 import linkedIn from '../../assets/linkedin.png';
@@ -36,6 +37,9 @@ const Footer = ()=>{
                     Estou disponível para novos projetos.<br/>
                     Entre em contato para conversarmos.
                 </FooterText>
+                <FooterOffering href="https://www.flaticon.com/br/icones-gratis/marcas-e-logotipos" title="marcas e logotipos ícones">
+                    Marcas, logotipos e ícones criados por Freepik - Flaticon
+                </FooterOffering>
             </FooterContainer>
         </FooterMain>
     )
