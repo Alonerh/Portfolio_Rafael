@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 import {
     Content,
     Title,
@@ -14,6 +12,7 @@ import {
 import devsFood from '../../assets/devsFood.png';
 import cloneWhatsapp from '../../assets/cloneWhatsapp.png';
 import starbucks from '../../assets/Starbucks.png';
+import tarefasPage from '../../assets/tarefas.png';
 import olxpage from '../../assets/olxpage.png';
 import memoryGame from '../../assets/memoryGame.png';
 import imcPage from '../../assets/imcPage.png';
@@ -79,6 +78,16 @@ const Projects = ()=>{
                     </ProjectContainer>
                     <ProjectText>
                         Front-end do site do Starbucks no qual treinei o uso de Display Grid.
+                    </ProjectText>
+                </ProjectBlock>
+                <ProjectBlock  href="https://lista-de-tarefas-fawn.vercel.app" target='_blank'>
+                    <ProjectContainer>
+                        <ProjectLink> 
+                            <ProjectImage src={tarefasPage}/>
+                        </ProjectLink>
+                    </ProjectContainer>
+                    <ProjectText>
+                        Site de Lista de Tarefas (NOVO)
                     </ProjectText>
                 </ProjectBlock>
                 <ProjectBlock href="https://alonerh.github.io/Jogo-da-Velha/" target='_blank'>
